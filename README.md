@@ -1,3 +1,4 @@
+
 # AutoLogin
 
 [![license](https://img.shields.io/github/license/StephenHoo/AutoLogin)](https://github.com/StephenHoo/AutoLogin/blob/master/LICENSE)
@@ -93,3 +94,7 @@
 
     请找到 loginData.txt 文件，并在文件的第三行（前两行分别是您账号和密码）补上您的 Chrome 的安装位置（如果是系统默认位置则不需要添加），格式一般为：`X:\Google\Chrome\Application\chrome.exe`，其中X为盘符
 
+carl modify
+完善打卡自动发邮件平台，增加chrome浏览器版（发件邮箱暂只支持QQ，收件邮箱不限）
+
+Note:loginData.txt中增加三行输入：发件邮箱邮箱、发件邮箱授权码、收件邮箱地址（第一次运行配置）
